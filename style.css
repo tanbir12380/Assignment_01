@@ -134,3 +134,48 @@ main {
   border-radius: 45px;
   object-fit: contain;
 }
+
+.productive_user_container {
+  height: 305px;
+  width: 100%;
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  padding: 1px;
+}
+
+.productive_user {
+  margin: 50px auto;
+}
+
+.productive_user h3 {
+  font-family: "raleway";
+  font-weight: bold;
+  font-size: 38px;
+  color: rgba(37, 36, 50, 1);
+  text-align: center;
+  margin: 50px 0px 25px 0px;
+}
+
+.pu_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.pu_content h4 {
+  font-size: 80px;
+  font-family: "inter";
+  color: rgba(78, 71, 255, 1);
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+.pu_content p {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "inter";
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: 0;
+}
