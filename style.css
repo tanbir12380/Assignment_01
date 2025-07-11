@@ -74,3 +74,63 @@ nav a:hover {
   font-weight: bold;
   color: rgba(37, 36, 50, 1);
 }
+
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.action {
+  height: 330px;
+  width: 100%;
+  margin: 115px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action_text {
+  width: 50%;
+}
+
+.action_text h4 {
+  font-family: "raleway";
+  font-size: 42px;
+  color: rgba(37, 36, 50, 1);
+  font-weight: bold;
+  margin: 25px 0 20px 0;
+}
+
+.action_text p {
+  font-size: 24px;
+  font-family: "raleway";
+  color: rgba(37, 36, 50, 0.5);
+  margin-right: 50px;
+}
+
+.action_text button {
+  background-color: rgba(78, 71, 255, 1);
+  width: 230px;
+  height: 48px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: white;
+  font-family: "raleway";
+  font-weight: bold;
+  cursor: pointer;
+  border: 0;
+}
+
+.action_text button:hover {
+  background-color: rgb(132, 0, 255);
+}
+
+.action_img {
+  height: 100%;
+}
+
+.action_img img {
+  height: 100%;
+  border-radius: 45px;
+  object-fit: contain;
+}
